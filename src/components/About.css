@@ -1,0 +1,84 @@
+.mainAbt{
+    justify-content: space-between;
+    flex-direction: column;
+   
+    height: 51.4rem;
+    display: flex;
+   
+}
+.contentAbt{
+margin-top: 2rem;
+font-size: 2.5rem;
+padding: 7rem;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: white;
+box-shadow: 0px 0px 10px 2px #4a456a33;
+}
+.contentAbt:hover{
+    transition: 0.5s;
+    box-shadow: 0px 0px 16px 2px black;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+   margin-top: 5.3rem;
+    background-color: white;
+    height: 4.3rem; margin-bottom: 0;
+    box-shadow: 0px 0px 10px 2px #4a456a33;
+ }
+ .footer:hover{
+    transition: 0.5s;
+    box-shadow: 0px 0px 16px 2px black;
+ }
+ .footerContent{
+  margin-left: 8rem;
+ }
+ .contactCol{
+    display: flex;
+
+ }
+ .contact{
+   height: 2rem;
+   width: 2rem;
+   list-style: none;
+   margin: 0.4rem;
+ }
+ .contact a{
+    height: inherit;
+ }
+ .contact a img{
+  height: inherit;
+ }
+.contact a:hover{
+    filter: drop-shadow(2px 4px 6px black);
+}
+
+
+
+@media screen and (max-width:415px){
+    .mainAbt{
+    width: 38rem;
+       height: 78rem;
+    }
+    .contentAbt{
+        margin-right: 1rem;
+        margin-left: 1rem;
+        margin-top: 2rem;
+        font-size: 2rem;
+        padding: 3rem;
+    }
+   
+    .footer{
+      width: 38rem; 
+     }
+     .footerContent{
+      margin-left: 5rem;
+     
+     }
+     
+
+  
+}

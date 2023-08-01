@@ -1,0 +1,60 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+background-color: white;
+}
+
+   
+
+body{
+    margin: 0;
+}
+.left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbarItems{
+    list-style: none;
+    font-size:2rem;
+    padding: 2rem;
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+    opacity: .5;
+    
+}
+.navbar a:hover{
+    transition: 0.4s;
+    text-decoration: underline;
+    opacity: 2;
+    color: green;
+
+}
+@keyframes down {
+    0% {
+      transform: translateY(-100%);
+      opacity: .5;
+    }
+    100% {
+      transform: translateY(0%);
+      opacity: 1;
+    }
+  }
+  .downAnime{
+    animation: down 1s ease;
+  }
+
+
+
+
+
+   @media screen and (max-width:415px) {
+    .navbar{
+        width: 38rem;
+    }
+
+   }

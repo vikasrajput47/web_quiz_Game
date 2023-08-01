@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&family=Mea+Culpa&family=Satisfy&family=Signika+Negative:wght@300&family=Tangerine&family=Tilt+Prism&display=swap');
+
+.userName{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40rem;
+}
+.userName input{
+    height: 3rem;
+    width: 30rem;
+    font-family: 'Lobster', cursive;
+    font-size: 1.5rem;
+    outline: none;
+    background-color: #979797;
+    border-radius: 2rem;
+}
+.userName button{
+    margin-left: 0rem;
+    height: 3.4rem;
+    width: 6rem;
+    font-size: 1.5rem;
+    outline: none;
+    border-radius: 2rem;
+    font-family: 'Lobster', cursive;
+}
+.userName button:hover{
+    transition: 1s;
+    background-color: green;
+}
+
+.quesContainer{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.question{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    width: 80%;
+    font-family: 'Lobster', cursive;
+    padding: 2rem;
+    box-shadow: 0px 0px 11px 0px #4a456a33;
+    background-color: white;
+    font-size: 2rem;
+}
+.options{
+    
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* border: 2px solid green; */
+}
+.options button{
+    font-size: 2rem;
+    margin-right: 6rem;
+    height: 4rem;
+    width: 29rem;
+    margin-top: 1rem;
+    border-radius: 2rem;
+    font-family: 'Lobster', cursive;
+}
+
+  
+.time{
+    font-size: 8rem;
+    font-family: 'Lobster', cursive;
+}
+
+.quesBtn{
+    font-size: 2rem;
+    width: 12rem;
+    border-radius: 2rem;
+    height: 4rem;
+    font-family: 'Lobster', cursive;
+}
+.quesBtn:hover{
+    transition: 1s;
+    background-color: green;
+}
+.score{
+    box-shadow: 0px 0px 11px 0px #4a456a33;
+    margin-left: 31rem;
+    padding: 1rem;
+    background-color: white;
+    font-size: 4rem;
+    width: 30rem;
+    text-align: center;
+    margin-top: 13rem;
+    font-family: 'Lobster', cursive;
+}
+.lead a{
+ text-decoration: none;
+ color: black;
+}
+.lead a:hover{
+    text-decoration: underline;
+    color: green;
+}
+.cat{
+    font-size: 3rem;
+}
+
+@media screen and (max-width:415px){
+ .userName{
+    flex-direction: column;
+    width: 38rem;
+ }   
+ .userName button{
+    margin-top: 1rem;
+}
+.quesContainer{
+    width: 38rem;
+    margin-top: 13rem;
+}
+.score{
+    margin-left: 3rem;
+}
+}

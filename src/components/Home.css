@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&family=Mea+Culpa&family=Satisfy&family=Signika+Negative:wght@300&family=Tangerine&family=Tilt+Prism&display=swap');
+
+body{
+    font-family: 'Lobster', cursive;
+    /* background-color: #96a0e7; */
+    background-image: url('./img/1.jpg');
+    background-size: cover;
+    animation: a 1s;
+}
+@keyframes a {
+  from{
+   opacity: 0;
+  }
+  to{
+opacity: 1;
+  }
+  
+}
+.homeMidBox{
+ 
+    margin-right: 5rem;
+    margin-left: 5rem;
+    margin-top: 5rem;
+    border-radius: 0.2rem;
+    height: 35rem;
+    box-shadow: 0px 0px 11px 0px #4a456a33;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+      background-color: white;
+}
+.homeMidBox:hover{
+  transition: 0.5s;
+  box-shadow: 0px 8px 99px 14px black;
+}
+.photo{
+height: 20rem;
+width: 23rem;
+display: flex;
+justify-content: center;
+}
+.photo img{
+    height: inherit;
+}
+.logo{
+    align-items: center;
+    justify-content: center;
+    height: 27rem;
+    width: 48rem;
+    font-size: 3rem;
+    display: flex;
+
+}
+
+.homeA{
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;
+    border-radius: 0.5rem;
+    display: flex;
+    margin-top: 0.4rem;
+    justify-content: center;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    height: 4rem;
+    align-items: center;
+  background-color: white;
+    box-shadow: 0px 0px 11px 0px #4a456a33;
+}
+.start a:hover{
+    transition: 1s;
+    background-color: #00982e;
+}
+.leftAnime {
+    animation: left 2s ease;
+  }
+.rightAnime {
+    animation: right 2s ease;
+  }
+  
+  @keyframes left {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes right {
+    0% {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0%);
+      opacity: 1;
+    }
+  }
+  
+  
+  
+  
+  
+  @media screen and (max-width:415px){
+    .homeMidBox{
+      margin-right: 2rem;
+      margin-left: 2rem;
+      margin-top: 5rem;
+      border-radius: 0.2rem;
+      width: 33rem;
+      height: 65rem;
+      flex-direction: column;
+  }
+  .homeMidBox:hover{
+    transition: 0.5s;
+    box-shadow: 0px 8px 99px 14px black;
+  }
+  .photo{
+  height: 25rem;
+  width: 23rem;
+  display: flex;
+  justify-content: center;
+  }
+  .photo img{
+      height: inherit;
+  }
+  .logo{
+ 
+    height: inherit;
+    width: inherit;
+    font-size: 3rem;
+    text-align: center;
+ 
+  
+  }
+  
+  .homeA{
+ 
+    font-size: 2rem;
+  
+    margin-top: 0;
+ 
+    margin-left: 0;
+    margin-right: 0;
+    width: inherit;
+  
+    
+  }
+  .start{
+    width: 33rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+   
+  }
+  }
